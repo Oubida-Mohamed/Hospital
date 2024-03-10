@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.cv1{
+    height: 100%;
+    width: auto;
+    display: inline-block;
+}
+.detail{
+   width: 600px;
+    position: relative;
+    left: 90px;
+    top: 90px;
+} 
+.container{
+  
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    
+}
+dl {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  dt {
+    font-size: 2.2rem;
+    font-weight: 300;
+    color:  white;
+    padding-bottom: 10px;
+    
+
+  }
+  dd {
+    color:  white;
+    margin: 0 0 40px 0;
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 white;
+    padding-left: 20px;
+    margin-top: 10px;
+    width: auto;
+  }
+
+
+  .image{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    border: 1px solid rgba(245, 245, 220, 0) ;
+    border-radius: 50%;
+  }
+  .rnd{
+    color: white;
+    text-align: center;
+
+  }
+    .delete{
+        border: 1px solid red;
+        border-radius: 20%;
+        background-color: red;
+        width: 100px;
+        height: 40px;
+        color:  white;
+        font-size: 25px;
+        
+    }
+    .update{
+        border: 1px solid rgb(17, 165, 4);
+        border-radius: 20%;
+        background-color: rgb(17, 165, 4);
+        width: 100px;
+        height: 40px;
+        color:  white;
+        font-size: 25px;
+        
+    }
+    .annuler{
+      border: 1px solid rgb(4, 50, 165);
+      border-radius: 20%;
+      background-color: rgb(4, 50, 165);
+      width: 100px;
+      height: 40px;
+      
+  }
+  .annuler>a{
+    color:  white;
+      font-size: 25px;
+      text-decoration: none;
+
+  }
+    dd>a{
+        text-decoration: none;
+        color:  white;
+
+    }
+    .button{
+        display: flex;
+        justify-content:space-around;
+    }

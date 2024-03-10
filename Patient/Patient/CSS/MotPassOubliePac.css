@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(../images/med4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 60px;
+}
+.contenir{
+    width: 30%;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 35%;
+    margin-top: 80px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+div input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.contenir .cin{
+    margin-top: 20px;
+}
+.date label{
+    color: white;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.submit input{
+    color: white;
+    background-color: rgb(41, 41, 41);
+    opacity: 1;
+    
+}
+.submit{
+    margin-bottom: 20px;
+}
+.submit input:hover{
+    background-color: rgb(217, 252, 246);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
